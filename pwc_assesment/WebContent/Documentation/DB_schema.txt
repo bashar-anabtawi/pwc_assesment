@@ -1,0 +1,13 @@
+### Table: user ###
+id
+username
+password
+isadmin
+
+### Table: complaints ###
+id
+name
+department
+description
+status
+complainer (FK to user(id))
